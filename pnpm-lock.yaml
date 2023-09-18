@@ -130,7 +130,7 @@ importers:
       lint-staged: 10.1.7
       lodash: 4.17.21
       lost: 8.3.1
-      minimatch: 3.0.4
+      minimatch: 3.0.5
       moment: ^2.24.0
       nanoid: 3.1.30
       next: workspace:*
@@ -305,7 +305,7 @@ importers:
       lint-staged: 10.1.7
       lodash: 4.17.21
       lost: 8.3.1
-      minimatch: 3.0.4
+      minimatch: 3.0.5
       moment: 2.24.0
       nanoid: 3.1.30
       next: link:packages/next
@@ -13333,7 +13333,7 @@ packages:
     dependencies:
       glob: 7.1.7
       lodash: 4.17.21
-      minimatch: 3.0.4
+      minimatch: 3.0.5
 
   /got/10.7.0:
     resolution: {integrity: sha512-aWTDeNw9g+XqEZNcTjMMZSy7B7yE9toWOFYip7ofFTLleJhvZwUxxTxkTpKvF+p1SAA4VHmuEy7PiHTHyq8tJg==}
@@ -17067,8 +17067,8 @@ packages:
     resolution: {integrity: sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=}
     dev: true
 
-  /minimatch/3.0.4:
-    resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
+  /minimatch/3.0.5:
+    resolution: {integrity: sha512-tUpxzX0VAzJHjLu0xUfFv1gwVp9ba3IOuRAVH2EGuRW8a5emA2FlACLqiT/lDVtS1W+TGNwqz3sWaNyLgDJWuw==}
     dependencies:
       brace-expansion: 1.1.11
 
