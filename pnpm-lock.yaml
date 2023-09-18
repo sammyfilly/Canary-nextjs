@@ -128,7 +128,7 @@ importers:
       ky-universal: 0.6.0
       lerna: 4.0.0
       lint-staged: 10.1.7
-      lodash: 4.17.20
+      lodash: 4.17.21
       lost: 8.3.1
       minimatch: 3.0.4
       moment: ^2.24.0
@@ -303,7 +303,7 @@ importers:
       ky-universal: 0.6.0_ky@0.19.1
       lerna: 4.0.0
       lint-staged: 10.1.7
-      lodash: 4.17.20
+      lodash: 4.17.21
       lost: 8.3.1
       minimatch: 3.0.4
       moment: 2.24.0
@@ -16374,10 +16374,6 @@ packages:
   /lodash.uniq/4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
 
-  /lodash/4.17.20:
-    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
-    dev: true
-
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
@@ -21796,7 +21792,7 @@ packages:
     dev: true
 
   /streamsearch/0.1.2:
-    resolution: {integrity: sha1-gIudDlb8Jz2Am6VzOOkpkZoanxo=}
+    resolution: {integrity: sha512-jos8u++JKm0ARcSUTAZXOVC0mSox7Bhn6sBgty73P1f3JGf7yG2clTbBNHUdde/kdvP2FESam+vM6l8jBrNxHA==}
     engines: {node: '>=0.8.0'}
     dev: true
 
