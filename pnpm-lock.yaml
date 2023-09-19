@@ -520,7 +520,7 @@ importers:
       '@swc/helpers': 0.4.14
       '@taskr/clear': 1.1.0
       '@taskr/esnext': 1.1.0
-      '@types/amphtml-validator': 1.0.0
+      '@types/amphtml-validator': 1.0.1
       '@types/babel__code-frame': 7.0.2
       '@types/babel__core': 7.1.12
       '@types/babel__generator': 7.6.2
@@ -728,7 +728,7 @@ importers:
       '@segment/ajv-human-errors': 2.1.2_ajv@8.11.0
       '@taskr/clear': 1.1.0
       '@taskr/esnext': 1.1.0
-      '@types/amphtml-validator': 1.0.0
+      '@types/amphtml-validator': 1.0.1
       '@types/babel__code-frame': 7.0.2
       '@types/babel__core': 7.1.12
       '@types/babel__generator': 7.6.2
@@ -6836,10 +6836,10 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
-  /@types/amphtml-validator/1.0.0:
-    resolution: {integrity: sha512-CJOi00fReT1JehItkgTZDI47v9WJxUH/OLX0XzkDgyEed7dGdeUQfXk5CTRM7N9FkHdv3klSjsZxo5sH1oTIGg==}
+  /@types/amphtml-validator/1.0.1:
+    resolution: {integrity: sha512-DWE7fy6KtC+Uw0KV/HAmjuH2GB/o8yskXlvmVWR7mOVsLDybp+XrwkzEeRFU9wGjWKeRMBNGsx+5DRq7sUsAwA==}
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 18.11.18
     dev: true
 
   /@types/aria-query/4.2.1:
