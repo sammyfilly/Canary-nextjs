@@ -521,7 +521,7 @@ importers:
       '@taskr/clear': 1.1.0
       '@taskr/esnext': 1.1.0
       '@types/amphtml-validator': 1.0.1
-      '@types/babel__code-frame': 7.0.2
+      '@types/babel__code-frame': 7.0.4
       '@types/babel__core': 7.1.12
       '@types/babel__generator': 7.6.2
       '@types/babel__template': 7.4.0
@@ -729,7 +729,7 @@ importers:
       '@taskr/clear': 1.1.0
       '@taskr/esnext': 1.1.0
       '@types/amphtml-validator': 1.0.1
-      '@types/babel__code-frame': 7.0.2
+      '@types/babel__code-frame': 7.0.4
       '@types/babel__core': 7.1.12
       '@types/babel__generator': 7.6.2
       '@types/babel__template': 7.4.0
@@ -968,7 +968,7 @@ importers:
   packages/react-dev-overlay:
     specifiers:
       '@babel/code-frame': 7.12.11
-      '@types/babel__code-frame': 7.0.2
+      '@types/babel__code-frame': 7.0.4
       anser: 1.4.9
       chalk: 4.0.0
       css.escape: 1.5.1
@@ -983,7 +983,7 @@ importers:
       webpack: ^4 || ^5
     dependencies:
       '@babel/code-frame': 7.12.11
-      '@types/babel__code-frame': 7.0.2
+      '@types/babel__code-frame': 7.0.4
       anser: 1.4.9
       chalk: 4.0.0
       css.escape: 1.5.1
@@ -6856,8 +6856,8 @@ packages:
       '@types/retry': 0.12.0
     dev: true
 
-  /@types/babel__code-frame/7.0.2:
-    resolution: {integrity: sha512-imO+jT/yjOKOAS5GQZ8SDtwiIloAGGr6OaZDKB0V5JVaSfGZLat5K5/ZRtyKW6R60XHV3RHYPTFfhYb+wDKyKg==}
+  /@types/babel__code-frame/7.0.4:
+    resolution: {integrity: sha512-WBxINLlATjvmpCgBbb9tOPrKtcPfu4A/Yz2iRzmdaodfvjAS/Z0WZJClV9/EXvoC9viI3lgUs7B9Uo7G/RmMGg==}
 
   /@types/babel__core/7.1.12:
     resolution: {integrity: sha512-wMTHiiTiBAAPebqaPiPDLFA4LYPKr6Ph0Xq/6rq1Ur3v66HXyG+clfR9CNETkD7MQS8ZHvpQOtA53DLws5WAEQ==}
