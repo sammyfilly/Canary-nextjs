@@ -390,7 +390,7 @@ importers:
     specifiers:
       '@types/async-retry': 1.4.2
       '@types/ci-info': 2.0.0
-      '@types/cross-spawn': 6.0.0
+      '@types/cross-spawn': 6.0.3
       '@types/glob': 7.1.1
       '@types/node': ^12.6.8
       '@types/prompts': 2.0.1
@@ -414,7 +414,7 @@ importers:
     devDependencies:
       '@types/async-retry': 1.4.2
       '@types/ci-info': 2.0.0
-      '@types/cross-spawn': 6.0.0
+      '@types/cross-spawn': 6.0.3
       '@types/glob': 7.1.1
       '@types/node': 12.12.24
       '@types/prompts': 2.0.1
@@ -532,7 +532,7 @@ importers:
       '@types/content-disposition': 0.5.4
       '@types/content-type': 1.1.3
       '@types/cookie': 0.3.3
-      '@types/cross-spawn': 6.0.0
+      '@types/cross-spawn': 6.0.3
       '@types/debug': 4.1.5
       '@types/fresh': 0.5.0
       '@types/glob': 7.1.1
@@ -740,7 +740,7 @@ importers:
       '@types/content-disposition': 0.5.4
       '@types/content-type': 1.1.3
       '@types/cookie': 0.3.3
-      '@types/cross-spawn': 6.0.0
+      '@types/cross-spawn': 6.0.3
       '@types/debug': 4.1.5
       '@types/fresh': 0.5.0
       '@types/glob': 7.1.1
@@ -6962,10 +6962,10 @@ packages:
     resolution: {integrity: sha512-LKVP3cgXBT9RYj+t+9FDKwS5tdI+rPBXaNSkma7hvqy35lc7mAokC2zsqWJH0LaqIt3B962nuYI77hsJoT1gow==}
     dev: true
 
-  /@types/cross-spawn/6.0.0:
-    resolution: {integrity: sha512-evp2ZGsFw9YKprDbg8ySgC9NA15g3YgiI8ANkGmKKvvi0P2aDGYLPxQIC5qfeKNUOe3TjABVGuah6omPRpIYhg==}
+  /@types/cross-spawn/6.0.3:
+    resolution: {integrity: sha512-BDAkU7WHHRHnvBf5z89lcvACsvkz/n7Tv+HyD/uW76O29HoH1Tk/W6iQrepaZVbisvlEek4ygwT8IW7ow9XLAA==}
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 18.11.18
     dev: true
 
   /@types/debug/4.1.5:
