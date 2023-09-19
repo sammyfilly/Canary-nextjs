@@ -76,7 +76,7 @@
     "@swc/core": "1.2.203",
     "@swc/helpers": "0.4.14",
     "@testing-library/react": "13.0.0",
-    "@types/cheerio": "0.22.16",
+    "@types/cheerio": "0.22.32",
     "@types/fs-extra": "8.1.0",
     "@types/html-validator": "5.0.3",
     "@types/http-proxy": "1.17.3",
