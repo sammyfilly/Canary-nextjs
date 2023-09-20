@@ -546,7 +546,7 @@ importers:
       '@types/platform': 1.3.4
       '@types/react': 16.9.17
       '@types/react-dom': 16.9.4
-      '@types/react-is': 16.7.1
+      '@types/react-is': 16.7.2
       '@types/semver': 7.3.1
       '@types/send': 0.14.4
       '@types/shell-quote': 1.7.1
@@ -754,7 +754,7 @@ importers:
       '@types/platform': 1.3.4
       '@types/react': 16.9.17
       '@types/react-dom': 16.9.4
-      '@types/react-is': 16.7.1
+      '@types/react-is': 16.7.2
       '@types/semver': 7.3.1
       '@types/send': 0.14.4
       '@types/shell-quote': 1.7.1
@@ -7268,8 +7268,8 @@ packages:
       '@types/react': 16.9.17
     dev: true
 
-  /@types/react-is/16.7.1:
-    resolution: {integrity: sha512-dMLFD2cCsxtDgMkTydQCM0PxDq8vwc6uN5M/jRktDfYvH3nQj6pjC9OrCXS2lKlYoYTNJorI/dI8x9dpLshexQ==}
+  /@types/react-is/16.7.2:
+    resolution: {integrity: sha512-rdQUu9J+RUz4Vcr768UyTzv+fZGzKBy1/PPhaxTfzAfaHSW4+b0olA6czXLZv7PO7/ktbHu41kcpAG7Z46kvDQ==}
     dependencies:
       '@types/react': 16.9.17
     dev: true
