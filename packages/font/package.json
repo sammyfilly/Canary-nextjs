@@ -21,7 +21,7 @@
     "test-pack": "cd ../../ && pnpm test-pack font"
   },
   "devDependencies": {
-    "@types/fontkit": "2.0.0",
+    "@types/fontkit": "2.0.4",
     "@vercel/ncc": "0.34.0",
     "fontkit": "2.0.2"
   }
