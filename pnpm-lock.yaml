@@ -50,7 +50,7 @@ importers:
       '@types/selenium-webdriver': 4.0.15
       '@types/sharp': 0.29.3
       '@types/string-hash': 1.1.1
-      '@types/trusted-types': 2.0.2
+      '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1
       '@typescript-eslint/parser': 4.29.1
       '@vercel/fetch': 6.1.1
@@ -225,7 +225,7 @@ importers:
       '@types/selenium-webdriver': 4.0.15
       '@types/sharp': 0.29.3
       '@types/string-hash': 1.1.1
-      '@types/trusted-types': 2.0.2
+      '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1_qxyn66xcaddhgaahwkbomftvi4
       '@typescript-eslint/parser': 4.29.1_6x3mpmmsttbpxxsctsorxedanu
       '@vercel/fetch': 6.1.1_fii5qhbaymjqmfm7e2spxc5z4m
@@ -7371,8 +7371,8 @@ packages:
       '@types/node': 18.11.18
     dev: true
 
-  /@types/trusted-types/2.0.2:
-    resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
+  /@types/trusted-types/2.0.4:
+    resolution: {integrity: sha512-IDaobHimLQhjwsQ/NMwRVfa/yL7L/wriQPMhw1ZJall0KX6E1oxk29XMDeilW5qTIg5aoiqf5Udy8U/51aNoQQ==}
     dev: true
 
   /@types/ua-parser-js/0.7.36:
