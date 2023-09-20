@@ -539,7 +539,7 @@ importers:
       '@types/jsonwebtoken': 9.0.0
       '@types/lodash': 4.14.198
       '@types/lodash.curry': 4.1.7
-      '@types/lru-cache': 5.1.0
+      '@types/lru-cache': 5.1.1
       '@types/micromatch': 4.0.2
       '@types/node-fetch': 2.6.1
       '@types/path-to-regexp': 1.7.0
@@ -747,7 +747,7 @@ importers:
       '@types/jsonwebtoken': 9.0.0
       '@types/lodash': 4.14.198
       '@types/lodash.curry': 4.1.7
-      '@types/lru-cache': 5.1.0
+      '@types/lru-cache': 5.1.1
       '@types/micromatch': 4.0.2
       '@types/node-fetch': 2.6.1
       '@types/path-to-regexp': 1.7.0
@@ -7151,8 +7151,8 @@ packages:
     resolution: {integrity: sha512-8mNEUG6diOrI6pMqOHrHPDBB1JsrpedeMK9AWGzVCQ7StRRribiT9BRvUmF8aUws9iBbVlgVekOT5Sgzc1MTKw==}
     dev: true
 
-  /@types/lru-cache/5.1.0:
-    resolution: {integrity: sha512-RaE0B+14ToE4l6UqdarKPnXwVDuigfFv+5j9Dze/Nqr23yyuqdNvzcZi3xB+3Agvi5R4EOgAksfv3lXX4vBt9w==}
+  /@types/lru-cache/5.1.1:
+    resolution: {integrity: sha512-ssE3Vlrys7sdIzs5LOxCzTVMsU7i9oa/IaW92wF32JFb3CVczqOkru2xspuKczHEbG3nvmPY7IFqVmGGHdNbYw==}
     dev: true
 
   /@types/mdast/3.0.10:
