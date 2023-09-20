@@ -554,7 +554,7 @@ importers:
       '@types/text-table': 0.2.3
       '@types/ua-parser-js': 0.7.36
       '@types/uuid': 8.3.4
-      '@types/webpack-sources1': npm:@types/webpack-sources@0.1.5
+      '@types/webpack-sources1': npm:@types/webpack-sources@0.1.9
       '@types/ws': 8.2.0
       '@vercel/ncc': 0.34.0
       '@vercel/nft': 0.22.6
@@ -762,7 +762,7 @@ importers:
       '@types/text-table': 0.2.3
       '@types/ua-parser-js': 0.7.36
       '@types/uuid': 8.3.4
-      '@types/webpack-sources1': /@types/webpack-sources/0.1.5
+      '@types/webpack-sources1': /@types/webpack-sources/0.1.9
       '@types/ws': 8.2.0
       '@vercel/ncc': 0.34.0
       '@vercel/nft': 0.22.6
@@ -7390,8 +7390,8 @@ packages:
     resolution: {integrity: sha512-iFNNIrEaJH1lbPiyX+O/QyxSbKxrTjdNBVZGckt+iEL9So0hdZNBL68sOfHnt2txuUD8UJXvmKv/1DkgkebgUg==}
     dev: true
 
-  /@types/webpack-sources/0.1.5:
-    resolution: {integrity: sha512-zfvjpp7jiafSmrzJ2/i3LqOyTYTuJ7u1KOXlKgDlvsj9Rr0x7ZiYu5lZbXwobL7lmsRNtPXlBfmaUD8eU2Hu8w==}
+  /@types/webpack-sources/0.1.9:
+    resolution: {integrity: sha512-bvzMnzqoK16PQIC8AYHNdW45eREJQMd6WG/msQWX5V2+vZmODCOPb4TJcbgRljTZZTwTM4wUMcsI8FftNA7new==}
     dependencies:
       '@types/node': 18.11.18
       '@types/source-list-map': 0.1.2
