@@ -526,7 +526,7 @@ importers:
       '@types/babel__generator': 7.6.5
       '@types/babel__template': 7.4.2
       '@types/babel__traverse': 7.11.0
-      '@types/bytes': 3.1.1
+      '@types/bytes': 3.1.2
       '@types/ci-info': 2.0.0
       '@types/compression': 0.0.36
       '@types/content-disposition': 0.5.4
@@ -571,7 +571,7 @@ importers:
       browserify-zlib: 0.2.0
       browserslist: 4.20.2
       buffer: 5.6.0
-      bytes: 3.1.1
+      bytes: 3.1.2
       caniuse-lite: 1.0.30001406
       chalk: 2.4.2
       ci-info: watson/ci-info#8e2b9d24a06753311503ea3838080034c5a63611
@@ -734,7 +734,7 @@ importers:
       '@types/babel__generator': 7.6.5
       '@types/babel__template': 7.4.2
       '@types/babel__traverse': 7.11.0
-      '@types/bytes': 3.1.1
+      '@types/bytes': 3.1.2
       '@types/ci-info': 2.0.0
       '@types/compression': 0.0.36
       '@types/content-disposition': 0.5.4
@@ -779,7 +779,7 @@ importers:
       browserify-zlib: 0.2.0
       browserslist: 4.20.2
       buffer: 5.6.0
-      bytes: 3.1.1
+      bytes: 3.1.2
       chalk: 2.4.2
       ci-info: github.com/watson/ci-info/8e2b9d24a06753311503ea3838080034c5a63611
       cli-select: 1.1.2
@@ -6915,8 +6915,8 @@ packages:
     resolution: {integrity: sha512-+euflG6ygo4bn0JHtn4pYqcXwRtLvElQ7/nnjDu7iYG56H0+OhCd7d6Ug0IE3WcFpZozBKW2+80FUbv5QGk5AQ==}
     dev: true
 
-  /@types/bytes/3.1.1:
-    resolution: {integrity: sha512-lOGyCnw+2JVPKU3wIV0srU0NyALwTBJlVSx5DfMQOFuuohA8y9S8orImpuIQikZ0uIQ8gehrRjxgQC1rLRi11w==}
+  /@types/bytes/3.1.2:
+    resolution: {integrity: sha512-92b6q7CSYBMVZDtMZh5PuKm3LjZwcU7s6H8e9sU20Z1tOrTuXN+Hz3VuP9E8axiQRaCoiEOMN1duqPCEIhamrQ==}
     dev: true
 
   /@types/cacheable-request/6.0.1:
