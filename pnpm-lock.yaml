@@ -58,7 +58,7 @@ importers:
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/floating-point-hex-parser': 1.11.6
       '@webassemblyjs/helper-api-error': 1.11.1
-      '@webassemblyjs/helper-buffer': 1.11.1
+      '@webassemblyjs/helper-buffer': 1.11.6
       '@webassemblyjs/helper-code-frame': npm:empty-npm-package@1.0.0
       '@webassemblyjs/helper-module-context': npm:empty-npm-package@1.0.0
       '@webassemblyjs/helper-numbers': 1.11.1
@@ -233,7 +233,7 @@ importers:
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/floating-point-hex-parser': 1.11.6
       '@webassemblyjs/helper-api-error': 1.11.1
-      '@webassemblyjs/helper-buffer': 1.11.1
+      '@webassemblyjs/helper-buffer': 1.11.6
       '@webassemblyjs/helper-code-frame': /empty-npm-package/1.0.0
       '@webassemblyjs/helper-module-context': /empty-npm-package/1.0.0
       '@webassemblyjs/helper-numbers': 1.11.1
@@ -7700,6 +7700,10 @@ packages:
 
   /@webassemblyjs/helper-buffer/1.11.1:
     resolution: {integrity: sha512-gwikF65aDNeeXa8JxXa2BAk+REjSyhrNC9ZwdT0f8jc4dQQeDQ7G4m0f2QCLPJiMTTO6wfDmRmj/pW0PsUvIcA==}
+
+  /@webassemblyjs/helper-buffer/1.11.6:
+    resolution: {integrity: sha512-z3nFzdcp1mb8nEOFFk8DrYLpHvhKC3grJD2ardfKOzmbmJvEf/tPIqCY+sNcwZIY8ZD7IkB2l7/pqhUhqm7hLA==}
+    dev: true
 
   /@webassemblyjs/helper-numbers/1.11.1:
     resolution: {integrity: sha512-vDkbxiB8zfnPdNK9Rajcey5C0w+QJugEglN0of+kmO8l7lDb77AnlKYQF7aarZuCrv+l0UvqL+68gSDr3k9LPQ==}
