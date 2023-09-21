@@ -561,7 +561,7 @@ importers:
       acorn: 8.5.0
       ajv: 8.11.0
       amphtml-validator: 1.0.35
-      anser: 1.4.9
+      anser: 1.4.10
       arg: 4.1.0
       assert: 2.0.0
       async-retry: 1.2.3
@@ -769,7 +769,7 @@ importers:
       acorn: 8.5.0
       ajv: 8.11.0
       amphtml-validator: 1.0.35
-      anser: 1.4.9
+      anser: 1.4.10
       arg: 4.1.0
       assert: 2.0.0
       async-retry: 1.2.3
@@ -969,7 +969,7 @@ importers:
     specifiers:
       '@babel/code-frame': 7.12.11
       '@types/babel__code-frame': 7.0.4
-      anser: 1.4.9
+      anser: 1.4.10
       chalk: 4.0.0
       css.escape: 1.5.1
       data-uri-to-buffer: 3.0.1
@@ -984,7 +984,7 @@ importers:
     dependencies:
       '@babel/code-frame': 7.12.11
       '@types/babel__code-frame': 7.0.4
-      anser: 1.4.9
+      anser: 1.4.10
       chalk: 4.0.0
       css.escape: 1.5.1
       data-uri-to-buffer: 3.0.1
@@ -8110,8 +8110,8 @@ packages:
       promise: 8.1.0
     dev: true
 
-  /anser/1.4.9:
-    resolution: {integrity: sha512-AI+BjTeGt2+WFk4eWcqbQ7snZpDBt8SaLlj0RT2h5xfdWaiy51OjYvqwMrNzJLGy8iOAL6nKDITWO+rd4MkYEA==}
+  /anser/1.4.10:
+    resolution: {integrity: sha512-hCv9AqTQ8ycjpSd3upOJd7vFwW1JaoYQ7tpham03GJ1ca8/65rqn0RpaWpItOAd6ylW9wAw6luXYPJIyPFVOww==}
 
   /ansi-align/3.0.0:
     resolution: {integrity: sha512-ZpClVKqXN3RGBmKibdfWzqCY4lnjEuoNzU5T0oEFpfd/z5qJHVarukridD4juLO2FXMiwUQxr9WqQtaYa8XRYw==}
