@@ -56,7 +56,7 @@ importers:
       '@vercel/fetch': 6.1.1
       '@vercel/og': 0.0.20
       '@webassemblyjs/ast': 1.11.6
-      '@webassemblyjs/floating-point-hex-parser': 1.11.1
+      '@webassemblyjs/floating-point-hex-parser': 1.11.6
       '@webassemblyjs/helper-api-error': 1.11.1
       '@webassemblyjs/helper-buffer': 1.11.1
       '@webassemblyjs/helper-code-frame': npm:empty-npm-package@1.0.0
@@ -231,7 +231,7 @@ importers:
       '@vercel/fetch': 6.1.1_fii5qhbaymjqmfm7e2spxc5z4m
       '@vercel/og': 0.0.20
       '@webassemblyjs/ast': 1.11.6
-      '@webassemblyjs/floating-point-hex-parser': 1.11.1
+      '@webassemblyjs/floating-point-hex-parser': 1.11.6
       '@webassemblyjs/helper-api-error': 1.11.1
       '@webassemblyjs/helper-buffer': 1.11.1
       '@webassemblyjs/helper-code-frame': /empty-npm-package/1.0.0
