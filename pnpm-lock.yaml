@@ -70,7 +70,7 @@ importers:
       '@webassemblyjs/wasm-edit': 1.11.6
       '@webassemblyjs/wasm-gen': 1.11.6
       '@webassemblyjs/wasm-opt': 1.11.6
-      '@webassemblyjs/wasm-parser': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.6
       '@webassemblyjs/wast-parser': npm:empty-npm-package@1.0.0
       '@webassemblyjs/wast-printer': 1.11.1
       '@zeit/next-typescript': 1.1.2-canary.0
@@ -245,7 +245,7 @@ importers:
       '@webassemblyjs/wasm-edit': 1.11.6
       '@webassemblyjs/wasm-gen': 1.11.6
       '@webassemblyjs/wasm-opt': 1.11.6
-      '@webassemblyjs/wasm-parser': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.6
       '@webassemblyjs/wast-parser': /empty-npm-package/1.0.0
       '@webassemblyjs/wast-printer': 1.11.1
       '@zeit/next-typescript': 1.1.2-canary.0_@babel+core@7.18.0
