@@ -406,7 +406,7 @@ importers:
       cpy: 7.3.0
       cross-spawn: 6.0.5
       glob: 8.0.3
-      got: 11.8.5
+      got: 11.8.6
       prompts: 2.1.0
       tar: 4.4.18
       update-check: 1.5.4
@@ -430,7 +430,7 @@ importers:
       cpy: 7.3.0
       cross-spawn: 6.0.5
       glob: 8.0.3
-      got: 11.8.5
+      got: 11.8.6
       prompts: 2.1.0
       tar: 4.4.18
       update-check: 1.5.4
@@ -13445,8 +13445,8 @@ packages:
       lodash: 4.17.21
       minimatch: 3.0.5
 
-  /got/11.8.5:
-    resolution: {integrity: sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==}
+  /got/11.8.6:
+    resolution: {integrity: sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==}
     engines: {node: '>=10.19.0'}
     dependencies:
       '@sindresorhus/is': 4.6.0
