@@ -595,7 +595,7 @@ importers:
       edge-runtime: 2.0.0
       events: 3.3.0
       fibers: '>= 3.1.0'
-      find-cache-dir: 3.3.1
+      find-cache-dir: 3.3.2
       find-up: 4.1.0
       fresh: 0.5.2
       get-orientation: 1.1.2
@@ -801,7 +801,7 @@ importers:
       domain-browser: 4.19.0
       edge-runtime: 2.0.0
       events: 3.3.0
-      find-cache-dir: 3.3.1
+      find-cache-dir: 3.3.2
       find-up: 4.1.0
       fresh: 0.5.2
       get-orientation: 1.1.2
@@ -12622,8 +12622,8 @@ packages:
       pkg-dir: 3.0.0
     dev: false
 
-  /find-cache-dir/3.3.1:
-    resolution: {integrity: sha512-t2GDMt3oGC/v+BMwzmllWDuJF/xcDtE5j/fCGbqDD7OLuJkj0cfh1YSA5VKPvwMeLFLNDBkwOKZ2X85jGLVftQ==}
+  /find-cache-dir/3.3.2:
+    resolution: {integrity: sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig==}
     engines: {node: '>=8'}
     dependencies:
       commondir: 1.0.1
@@ -21023,7 +21023,7 @@ packages:
       typescript: '>=2.4.0'
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.35.1
-      find-cache-dir: 3.3.1
+      find-cache-dir: 3.3.2
       fs-extra: 8.1.0
       resolve: 1.17.0
       rollup: 2.35.1
