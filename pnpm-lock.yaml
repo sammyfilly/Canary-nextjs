@@ -587,7 +587,7 @@ importers:
       cross-spawn: 6.0.5
       crypto-browserify: 3.12.0
       css.escape: 1.5.1
-      cssnano-simple: 3.0.1
+      cssnano-simple: 3.0.2
       data-uri-to-buffer: 3.0.1
       debug: 4.1.1
       devalue: 2.0.1
@@ -794,7 +794,7 @@ importers:
       cross-spawn: 6.0.5
       crypto-browserify: 3.12.0
       css.escape: 1.5.1
-      cssnano-simple: 3.0.1_postcss@8.4.14
+      cssnano-simple: 3.0.2_postcss@8.4.14
       data-uri-to-buffer: 3.0.1
       debug: 4.1.1
       devalue: 2.0.1
@@ -10604,8 +10604,8 @@ packages:
       postcss: 8.2.13
     dev: true
 
-  /cssnano-preset-simple/3.0.1_postcss@8.4.14:
-    resolution: {integrity: sha512-LFk9aMXmsOmfGboj1vDtyEMT+xiSk7Fv9EZpI3PlyzoobqpUhfGN6GGsx2o8p+x7kNtC6730npXj75fGK5dbiw==}
+  /cssnano-preset-simple/4.0.0_postcss@8.4.14:
+    resolution: {integrity: sha512-hSqVEM4JOnp5dwAm8LNjkN8wlqZ0zbvbtUbh3bQqfZFIqCNZXoU2xpM/YC01k4TcJJHJemThkbNDaurZTgj5pw==}
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
@@ -10622,15 +10622,15 @@ packages:
       postcss: 8.2.13
     dev: true
 
-  /cssnano-simple/3.0.1_postcss@8.4.14:
-    resolution: {integrity: sha512-y+04SCiuGLir1w7fX9i0mAf5szyrpkTVR4eWhde9yurPkilQCzD/UWv8CYKIySA5oO1TwsF695wY5mgsJy7CYA==}
+  /cssnano-simple/3.0.2_postcss@8.4.14:
+    resolution: {integrity: sha512-16jgh/dmhAhA529g2+s6vlxbIDvG9r/sT8y50y63ZBIXVxPqG1KpL3pjNOu9a9HWGJOGeG6j7TqexpHOvRGMkw==}
     peerDependencies:
       postcss: ^8.2.15
     peerDependenciesMeta:
       postcss:
         optional: true
     dependencies:
-      cssnano-preset-simple: 3.0.1_postcss@8.4.14
+      cssnano-preset-simple: 4.0.0_postcss@8.4.14
       postcss: 8.4.14
     dev: true
 
