@@ -160,7 +160,7 @@ importers:
       relay-compiler: 13.0.2
       relay-runtime: 13.0.2
       release: 6.3.1
-      request-promise-core: 1.1.2
+      request-promise-core: 1.1.4
       resolve-from: 5.0.0
       rimraf: 3.0.2
       sass: 1.54.0
@@ -335,7 +335,7 @@ importers:
       relay-compiler: 13.0.2
       relay-runtime: 13.0.2
       release: 6.3.1
-      request-promise-core: 1.1.2_request@2.88.2
+      request-promise-core: 1.1.4_request@2.88.2
       resolve-from: 5.0.0
       rimraf: 3.0.2
       sass: 1.54.0
@@ -19858,8 +19858,8 @@ packages:
       is-finite: 1.0.2
     dev: true
 
-  /request-promise-core/1.1.2_request@2.88.2:
-    resolution: {integrity: sha512-UHYyq1MO8GsefGEt7EprS8UrXsm1TxEvFUX1IMTuSLU2Rh7fTIdFtl8xD7JiEYiWU2dl+NYAjCTksTehQUxPag==}
+  /request-promise-core/1.1.4_request@2.88.2:
+    resolution: {integrity: sha512-TTbAfBBRdWD7aNNOoVOBH4pN/KigV6LyapYNNlAPA8JwbovRti1E88m3sYAwsLi5ryhPKsE9APwnjFTgdUjTpw==}
     engines: {node: '>=0.10.0'}
     peerDependencies:
       request: ^2.34
