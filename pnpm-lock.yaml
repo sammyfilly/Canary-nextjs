@@ -619,7 +619,7 @@ importers:
       mini-css-extract-plugin: 2.4.3
       nanoid: 3.1.32
       native-url: 0.3.4
-      neo-async: 2.6.1
+      neo-async: 2.6.2
       node-fetch: 2.6.7
       node-html-parser: 5.3.3
       node-sass: ^6.0.0 || ^7.0.0
@@ -825,7 +825,7 @@ importers:
       mini-css-extract-plugin: 2.4.3_webpack@5.76.0
       nanoid: 3.1.32
       native-url: 0.3.4
-      neo-async: 2.6.1
+      neo-async: 2.6.2
       node-fetch: 2.6.7
       node-html-parser: 5.3.3
       ora: 4.0.4
@@ -16697,10 +16697,6 @@ packages:
   /negotiator/0.6.2:
     resolution: {integrity: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==}
     engines: {node: '>= 0.6'}
-
-  /neo-async/2.6.1:
-    resolution: {integrity: sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==}
-    dev: true
 
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
