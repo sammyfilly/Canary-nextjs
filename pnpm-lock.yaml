@@ -156,7 +156,7 @@ importers:
       react-dom-builtin: npm:react-dom@18.3.0-next-3ba7add60-20221201
       react-server-dom-webpack: 18.3.0-next-3ba7add60-20221201
       react-ssr-prepass: 1.0.8
-      react-virtualized: 9.22.3
+      react-virtualized: 9.22.5
       relay-compiler: 13.0.2
       relay-runtime: 13.0.2
       release: 6.3.1
@@ -331,7 +331,7 @@ importers:
       react-dom-builtin: /react-dom/18.3.0-next-3ba7add60-20221201_react@18.2.0
       react-server-dom-webpack: 18.3.0-next-3ba7add60-20221201_7huj2xesch2d67457fg6hio3q4
       react-ssr-prepass: 1.0.8_qncsgtzehe3fgiqp6tr7lwq6fm
-      react-virtualized: 9.22.3_biqbaboplfbrettd7655fr4n2y
+      react-virtualized: 9.22.5_biqbaboplfbrettd7655fr4n2y
       relay-compiler: 13.0.2
       relay-runtime: 13.0.2
       release: 6.3.1
@@ -19327,11 +19327,11 @@ packages:
       react-is: 16.13.1
     dev: true
 
-  /react-virtualized/9.22.3_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-MKovKMxWTcwPSxE1kK1HcheQTWfuCxAuBoSTf2gwyMM21NdX/PXUhnoP8Uc5dRKd+nKm8v41R36OellhdCpkrw==}
+  /react-virtualized/9.22.5_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-YqQMRzlVANBv1L/7r63OHa2b0ZsAaDp1UhVNEdUaXI8A5u6hTpA5NYtUueLH2rFuY/27mTGIBl7ZhqFKzw18YQ==}
     peerDependencies:
-      react: ^15.3.0 || ^16.0.0-alpha
-      react-dom: ^15.3.0 || ^16.0.0-alpha
+      react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
+      react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.16.7
       clsx: 1.1.1
