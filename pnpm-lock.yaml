@@ -615,7 +615,7 @@ importers:
       loader-utils3: npm:loader-utils@3.1.3
       lodash.curry: 4.1.1
       lru-cache: 5.1.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       mini-css-extract-plugin: 2.4.3
       nanoid: 3.1.32
       native-url: 0.3.4
@@ -821,7 +821,7 @@ importers:
       loader-utils3: /loader-utils/3.1.3
       lodash.curry: 4.1.1
       lru-cache: 5.1.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       mini-css-extract-plugin: 2.4.3_webpack@5.76.0
       nanoid: 3.1.32
       native-url: 0.3.4
@@ -4204,7 +4204,7 @@ packages:
       jest-util: 27.5.1
       jest-validate: 27.0.6
       jest-watcher: 27.0.6
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       p-each-series: 2.2.0
       rimraf: 3.0.2
       slash: 3.0.0
@@ -4369,7 +4369,7 @@ packages:
       jest-haste-map: 27.5.1
       jest-regex-util: 27.5.1
       jest-util: 27.5.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       pirates: 4.0.5
       slash: 3.0.0
       source-map: 0.6.1
@@ -4392,7 +4392,7 @@ packages:
       jest-haste-map: 27.5.1
       jest-regex-util: 27.5.1
       jest-util: 27.5.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       pirates: 4.0.5
       slash: 3.0.0
       source-map: 0.6.1
@@ -7000,7 +7000,7 @@ packages:
       estree-walker: 2.0.2
       glob: 7.2.0
       graceful-fs: 4.2.10
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       node-gyp-build: 4.2.3
       resolve-from: 5.0.0
     transitivePeerDependencies:
@@ -11765,7 +11765,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
 
   /fast-json-stable-stringify/2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
@@ -11999,7 +11999,7 @@ packages:
     dependencies:
       detect-file: 1.0.0
       is-glob: 4.0.3
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       resolve-dir: 1.0.1
     dev: true
 
@@ -14388,7 +14388,7 @@ packages:
       jest-runner: 27.0.6
       jest-util: 27.5.1
       jest-validate: 27.5.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       pretty-format: 27.5.1
       ts-node: 10.9.1_cx2odcp7q42yre3tu7le55sjlu
     transitivePeerDependencies:
@@ -14515,7 +14515,7 @@ packages:
       jest-serializer: 27.5.1
       jest-util: 27.5.1
       jest-worker: 27.5.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       walker: 1.0.7
     optionalDependencies:
       fsevents: 2.3.2
@@ -14535,7 +14535,7 @@ packages:
       jest-serializer: 27.5.1
       jest-util: 27.5.1
       jest-worker: 27.5.1
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       walker: 1.0.7
     optionalDependencies:
       fsevents: 2.3.2
@@ -14604,7 +14604,7 @@ packages:
       '@types/stack-utils': 2.0.0
       chalk: 4.1.2
       graceful-fs: 4.2.10
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       pretty-format: 26.6.2
       slash: 3.0.0
       stack-utils: 2.0.5
@@ -14619,7 +14619,7 @@ packages:
       '@types/stack-utils': 2.0.0
       chalk: 4.1.2
       graceful-fs: 4.2.10
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       pretty-format: 27.5.1
       slash: 3.0.0
       stack-utils: 2.0.5
@@ -14634,7 +14634,7 @@ packages:
       '@types/stack-utils': 2.0.0
       chalk: 4.1.2
       graceful-fs: 4.2.10
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       pretty-format: 28.1.3
       slash: 3.0.0
       stack-utils: 2.0.5
@@ -16343,7 +16343,15 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
-      picomatch: 2.2.3
+      picomatch: 2.3.1
+    dev: true
+
+  /micromatch/4.0.5:
+    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
+    engines: {node: '>=8.6'}
+    dependencies:
+      braces: 3.0.2
+      picomatch: 2.3.1
 
   /miller-rabin/4.0.1:
     resolution: {integrity: sha512-115fLhvZVqWwHPbClyntxEVfVDfl9DLLTuJvq3g2O/Oxi8AiNouAHvDSzHS0viUJc+V5vm3eq91Xwqn9dp4jRA==}
@@ -17929,10 +17937,6 @@ packages:
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-
-  /picomatch/2.2.3:
-    resolution: {integrity: sha512-KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==}
-    engines: {node: '>=8.6'}
 
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
