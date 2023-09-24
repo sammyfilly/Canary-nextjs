@@ -34,4 +34,4 @@ next-binding = { git = "https://github.com/vercel/turbo.git", tag = "turbopack-2
   "__swc_testing",
 ] }
 
-walkdir = "2.3.2"
+walkdir = "2.4.0"
