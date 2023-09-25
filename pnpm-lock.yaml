@@ -506,7 +506,7 @@ importers:
       '@babel/runtime': 7.22.15
       '@babel/traverse': 7.22.20
       '@babel/types': 7.22.19
-      '@edge-runtime/primitives': 2.0.0
+      '@edge-runtime/primitives': 2.1.2
       '@hapi/accept': 5.0.2
       '@napi-rs/cli': 2.13.3
       '@napi-rs/triples': 1.1.0
@@ -716,7 +716,7 @@ importers:
       '@babel/runtime': 7.22.15
       '@babel/traverse': 7.22.20
       '@babel/types': 7.22.19
-      '@edge-runtime/primitives': 2.0.0
+      '@edge-runtime/primitives': 2.1.2
       '@hapi/accept': 5.0.2
       '@napi-rs/cli': 2.13.3
       '@napi-rs/triples': 1.1.0
@@ -3341,6 +3341,11 @@ packages:
 
   /@edge-runtime/primitives/2.0.0:
     resolution: {integrity: sha512-AXqUq1zruTJAICrllUvZcgciIcEGHdF6KJ3r6FM0n4k8LpFxZ62tPWVIJ9HKm+xt+ncTBUZxwgUaQ73QMUQEKw==}
+    dev: true
+
+  /@edge-runtime/primitives/2.1.2:
+    resolution: {integrity: sha512-SR04SMDybALlhIYIi0hiuEUwIl0b7Sn+RKwQkX6hydg4+AKMzBNDFhj2nqHDD1+xkHArV9EhmJIb6iGjShwSzg==}
+    engines: {node: '>=14'}
     dev: true
 
   /@edge-runtime/primitives/4.0.1:
