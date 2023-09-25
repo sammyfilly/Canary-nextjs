@@ -48,7 +48,7 @@ importers:
       '@types/react-dom': 16.9.4
       '@types/relay-runtime': 13.0.0
       '@types/selenium-webdriver': 4.0.15
-      '@types/sharp': 0.29.3
+      '@types/sharp': 0.31.1
       '@types/string-hash': 1.1.1
       '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1
@@ -223,7 +223,7 @@ importers:
       '@types/react-dom': 16.9.4
       '@types/relay-runtime': 13.0.0
       '@types/selenium-webdriver': 4.0.15
-      '@types/sharp': 0.29.3
+      '@types/sharp': 0.31.1
       '@types/string-hash': 1.1.1
       '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1_qxyn66xcaddhgaahwkbomftvi4
@@ -6346,8 +6346,8 @@ packages:
       '@types/mime': 2.0.1
     dev: true
 
-  /@types/sharp/0.29.3:
-    resolution: {integrity: sha512-83Xp05eK2hvfNnmKLr2Fz0C2A0jrr2TnSLqKRbkLTYuAu+Erj6mKQLoEMGafE73Om8p3q3ryZxtHFM/7hy4Adg==}
+  /@types/sharp/0.31.1:
+    resolution: {integrity: sha512-5nWwamN9ZFHXaYEincMSuza8nNfOof8nmO+mcI+Agx1uMUk4/pQnNIcix+9rLPXzKrm1pS34+6WRDbDV0Jn7ag==}
     dependencies:
       '@types/node': 18.11.18
     dev: true
