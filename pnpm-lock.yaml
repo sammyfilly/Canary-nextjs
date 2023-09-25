@@ -516,7 +516,7 @@ importers:
       '@next/react-dev-overlay': 13.1.6
       '@next/react-refresh-utils': 13.1.6
       '@next/swc': 13.1.6
-      '@segment/ajv-human-errors': 2.1.2
+      '@segment/ajv-human-errors': 2.11.3
       '@swc/helpers': 0.5.2
       '@taskr/clear': 1.1.0
       '@taskr/esnext': 1.1.0
@@ -725,7 +725,7 @@ importers:
       '@next/react-dev-overlay': link:../react-dev-overlay
       '@next/react-refresh-utils': link:../react-refresh-utils
       '@next/swc': link:../next-swc
-      '@segment/ajv-human-errors': 2.1.2_ajv@8.11.0
+      '@segment/ajv-human-errors': 2.11.3_ajv@8.11.0
       '@taskr/clear': 1.1.0
       '@taskr/esnext': 1.1.0
       '@types/amphtml-validator': 1.0.2
@@ -5420,8 +5420,8 @@ packages:
       rxjs: 6.6.2
     dev: true
 
-  /@segment/ajv-human-errors/2.1.2_ajv@8.11.0:
-    resolution: {integrity: sha512-d1uQndRFLRO01+xW1y5m+joxDgHf5SLJ70YCY2ArLoo2FJ50o6AoX2mEbuGvnKz/IdwnvDugm9Ti3mZQkW1OoA==}
+  /@segment/ajv-human-errors/2.11.3_ajv@8.11.0:
+    resolution: {integrity: sha512-UeeDR6wmSoIlQ5GKx7Cs1FmQfqf+r+VxpAa6xuJkh4EP/+0UHY+OFUqf9G+2NiD7ZQdWZihgqHBgyc3tXfpZnw==}
     peerDependencies:
       ajv: ^8.0.0
     dependencies:
