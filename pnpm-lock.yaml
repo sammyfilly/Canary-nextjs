@@ -85,7 +85,7 @@ importers:
       cheerio: 0.22.0
       cookie: 0.5.0
       cors: 2.8.5
-      coveralls: 3.0.3
+      coveralls: 3.1.1
       create-next-app: workspace:*
       critters: 0.0.20
       cross-env: 6.0.3
@@ -260,7 +260,7 @@ importers:
       cheerio: 0.22.0
       cookie: 0.5.0
       cors: 2.8.5
-      coveralls: 3.0.3
+      coveralls: 3.1.1
       create-next-app: link:packages/create-next-app
       critters: 0.0.20
       cross-env: 6.0.3
@@ -9227,14 +9227,13 @@ packages:
       yaml: 1.10.0
     dev: true
 
-  /coveralls/3.0.3:
-    resolution: {integrity: sha512-viNfeGlda2zJr8Gj1zqXpDMRjw9uM54p7wzZdvLRyOgnAfCe974Dq4veZkjJdxQXbmdppu6flEajFYseHYaUhg==}
-    engines: {node: '>=4.0.0'}
+  /coveralls/3.1.1:
+    resolution: {integrity: sha512-+dxnG2NHncSD1NrqbSM3dn/lE57O6Qf/koe9+I7c+wzkqRmEvcp0kgJdxKInzYzkICKkFMZsX3Vct3++tsF9ww==}
+    engines: {node: '>=6'}
     hasBin: true
     dependencies:
-      growl: 1.10.5
       js-yaml: 3.14.1
-      lcov-parse: 0.0.10
+      lcov-parse: 1.0.0
       log-driver: 1.2.7
       minimist: 1.2.6
       request: 2.88.2
@@ -12590,11 +12589,6 @@ packages:
   /grapheme-splitter/1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
 
-  /growl/1.10.5:
-    resolution: {integrity: sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==}
-    engines: {node: '>=4.x'}
-    dev: true
-
   /gzip-size/3.0.0:
     resolution: {integrity: sha512-6s8trQiK+OMzSaCSVXX+iqIcLV9tC+E73jrJrJTyS4h/AJhlxHvzFKqM1YLDJWRGgHX8uLkBeXkA0njNj39L4w==}
     engines: {node: '>=0.12.0'}
@@ -15215,8 +15209,9 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /lcov-parse/0.0.10:
-    resolution: {integrity: sha1-GwuP+ayceIklBYK3C3ExXZ2m2aM=}
+  /lcov-parse/1.0.0:
+    resolution: {integrity: sha512-aprLII/vPzuQvYZnDRU78Fns9I2Ag3gi4Ipga/hxnVMCZC8DnR2nI7XBqrPoywGfxqIx/DgarGvDJZAD3YBTgQ==}
+    hasBin: true
     dev: true
 
   /lerna/4.0.0:
