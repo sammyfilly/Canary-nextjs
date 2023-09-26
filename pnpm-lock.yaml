@@ -53,7 +53,7 @@ importers:
       '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1
       '@typescript-eslint/parser': 4.29.1
-      '@vercel/fetch': 6.1.1
+      '@vercel/fetch': 6.2.0
       '@vercel/og': 0.0.20
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/floating-point-hex-parser': 1.11.6
@@ -228,7 +228,7 @@ importers:
       '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1_qxyn66xcaddhgaahwkbomftvi4
       '@typescript-eslint/parser': 4.29.1_6x3mpmmsttbpxxsctsorxedanu
-      '@vercel/fetch': 6.1.1_fii5qhbaymjqmfm7e2spxc5z4m
+      '@vercel/fetch': 6.2.0_fii5qhbaymjqmfm7e2spxc5z4m
       '@vercel/og': 0.0.20
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/floating-point-hex-parser': 1.11.6
@@ -5880,6 +5880,12 @@ packages:
       '@types/retry': 0.12.0
     dev: true
 
+  /@types/async-retry/1.4.6:
+    resolution: {integrity: sha512-or8JPgYUtyPpO0ddHImwUWmSjVE/UalxgMm2d0r3698QhjzlM7eke0PT60bOxs1NG7HxU232RQ1vy1iQKGGRTw==}
+    dependencies:
+      '@types/retry': 0.12.0
+    dev: true
+
   /@types/babel__code-frame/7.0.4:
     resolution: {integrity: sha512-WBxINLlATjvmpCgBbb9tOPrKtcPfu4A/Yz2iRzmdaodfvjAS/Z0WZJClV9/EXvoC9viI3lgUs7B9Uo7G/RmMGg==}
 
@@ -6637,18 +6643,18 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/fetch/6.1.1_fii5qhbaymjqmfm7e2spxc5z4m:
-    resolution: {integrity: sha512-nddCkgpA0aVIqOlzh+qVlzDNcQq0cSnqefM+x6SciGI4GCvVZeaZ7WEowgX8I/HwBAq8Uj5Bdnd+r0+sYsJsig==}
+  /@vercel/fetch/6.2.0_fii5qhbaymjqmfm7e2spxc5z4m:
+    resolution: {integrity: sha512-MU+Mzh06NIAXxwdnyHmBFg+/lTKBbzDkCSNhAwWTFJ4rHuBc4pHc8E6XP+qnwqaWugjOBQgFfQCGDLnV820c9A==}
     peerDependencies:
-      '@types/node-fetch': '2'
-      node-fetch: '2'
+      '@types/node-fetch': ^2.6.1
+      node-fetch: ^2.6.7
     dependencies:
-      '@types/async-retry': 1.2.1
+      '@types/async-retry': 1.4.6
       '@types/node-fetch': 2.6.1
       '@vercel/fetch-cached-dns': 2.0.2_node-fetch@2.6.7
       '@vercel/fetch-retry': 5.0.3_node-fetch@2.6.7
-      agentkeepalive: 3.4.1
-      debug: 3.1.0
+      agentkeepalive: 4.5.0
+      debug: 4.3.4
       node-fetch: 2.6.7
     transitivePeerDependencies:
       - supports-color
@@ -7029,22 +7035,11 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /agentkeepalive/3.4.1:
-    resolution: {integrity: sha512-MPIwsZU9PP9kOrZpyu2042kYA8Fdt/AedQYkYXucHgF9QoD9dXVp0ypuGnHXSR0hTstBxdt85Xkh4JolYfK5wg==}
-    engines: {node: '>= 4.0.0'}
-    dependencies:
-      humanize-ms: 1.2.1
-    dev: true
-
-  /agentkeepalive/4.1.4:
-    resolution: {integrity: sha512-+V/rGa3EuU74H6wR04plBb7Ks10FbtUQgRj/FQOG7uUIEuaINI+AiqJR1k6t3SVNs7o7ZjIdus6706qqzVq8jQ==}
+  /agentkeepalive/4.5.0:
+    resolution: {integrity: sha512-5GG/5IbQQpC9FpkRGsSvZI5QYeSCzlJHdpBQntCsuTOxhKD8lqKhrleg2Yi7yvMIf82Ycmmqln9U8V9qwEiJew==}
     engines: {node: '>= 8.0.0'}
     dependencies:
-      debug: 4.3.4
-      depd: 1.1.2
       humanize-ms: 1.2.1
-    transitivePeerDependencies:
-      - supports-color
 
   /aggregate-error/3.0.1:
     resolution: {integrity: sha512-quoaXsZ9/BLNae5yiNoUz+Nhkwz83GhWwtYFglcjEQB2NDHCIpApbqXxIFnm4Pq/Nvhrsq5sYJFyohrrxnTGAA==}
@@ -10016,6 +10011,7 @@ packages:
   /depd/1.1.2:
     resolution: {integrity: sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==}
     engines: {node: '>= 0.6'}
+    dev: true
 
   /depd/2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
@@ -15888,7 +15884,7 @@ packages:
     resolution: {integrity: sha512-rQ5NijwwdU8tIaBrpTtSVrNCcAJfyDRcKBC76vOQlyJX588/88+TE+UpjWl4BgG7gCkp29wER7xcRqkeg+x64Q==}
     engines: {node: '>= 10'}
     dependencies:
-      agentkeepalive: 4.1.4
+      agentkeepalive: 4.5.0
       cacache: 15.3.0
       http-cache-semantics: 4.1.0
       http-proxy-agent: 4.0.1
@@ -15912,7 +15908,7 @@ packages:
     resolution: {integrity: sha512-+zopwDy7DNknmwPQplem5lAZX/eCOzSvSNNcSKm5eVwTkOBzoktEfXsa9L23J/GIRhxRsaxzkPEhrJEpE2F4Gg==}
     engines: {node: '>= 10'}
     dependencies:
-      agentkeepalive: 4.1.4
+      agentkeepalive: 4.5.0
       cacache: 15.3.0
       http-cache-semantics: 4.1.0
       http-proxy-agent: 4.0.1
