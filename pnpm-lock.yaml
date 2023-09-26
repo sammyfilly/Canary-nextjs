@@ -80,7 +80,7 @@ importers:
       async-sema: 3.1.1
       body-parser: 1.20.2
       browserslist: 4.21.11
-      buffer: 5.6.0
+      buffer: 5.7.1
       chalk: 5.0.1
       cheerio: 0.22.0
       cookie: 0.4.1
@@ -255,7 +255,7 @@ importers:
       async-sema: 3.1.1
       body-parser: 1.20.2
       browserslist: 4.21.11
-      buffer: 5.6.0
+      buffer: 5.7.1
       chalk: 5.0.1
       cheerio: 0.22.0
       cookie: 0.4.1
@@ -570,7 +570,7 @@ importers:
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       browserify-zlib: 0.2.0
       browserslist: 4.21.11
-      buffer: 5.6.0
+      buffer: 5.7.1
       bytes: 3.1.2
       caniuse-lite: 1.0.30001539
       chalk: 2.4.2
@@ -778,7 +778,7 @@ importers:
       babel-plugin-transform-react-remove-prop-types: 0.4.24
       browserify-zlib: 0.2.0
       browserslist: 4.21.11
-      buffer: 5.6.0
+      buffer: 5.7.1
       bytes: 3.1.2
       chalk: 2.4.2
       ci-info: github.com/watson/ci-info/8e2b9d24a06753311503ea3838080034c5a63611
@@ -8108,13 +8108,6 @@ packages:
 
   /buffer-xor/1.0.3:
     resolution: {integrity: sha512-571s0T7nZWK6vB67HI5dyUF7wXiNcfaPPPTl6zYCNApANjIvYJTg7hlud/+cJpdAhS7dVzqMLmfhfHR3rAcOjQ==}
-    dev: true
-
-  /buffer/5.6.0:
-    resolution: {integrity: sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==}
-    dependencies:
-      base64-js: 1.5.1
-      ieee754: 1.2.1
     dev: true
 
   /buffer/5.7.1:
