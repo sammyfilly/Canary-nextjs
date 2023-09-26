@@ -557,7 +557,7 @@ importers:
       '@types/webpack-sources1': npm:@types/webpack-sources@0.1.10
       '@types/ws': 8.2.0
       '@vercel/ncc': 0.38.0
-      '@vercel/nft': 0.22.6
+      '@vercel/nft': 0.24.1
       acorn: 8.5.0
       ajv: 8.11.0
       amphtml-validator: 1.0.35
@@ -765,7 +765,7 @@ importers:
       '@types/webpack-sources1': /@types/webpack-sources/0.1.10
       '@types/ws': 8.2.0
       '@vercel/ncc': 0.38.0
-      '@vercel/nft': 0.22.6
+      '@vercel/nft': 0.24.1
       acorn: 8.5.0
       ajv: 8.11.0
       amphtml-validator: 1.0.35
@@ -6665,9 +6665,9 @@ packages:
     hasBin: true
     dev: true
 
-  /@vercel/nft/0.22.6:
-    resolution: {integrity: sha512-gTsFnnT4mGxodr4AUlW3/urY+8JKKB452LwF3m477RFUJTAaDmcz2JqFuInzvdybYIeyIv1sSONEJxsxnbQ5JQ==}
-    engines: {node: '>=14'}
+  /@vercel/nft/0.24.1:
+    resolution: {integrity: sha512-bGYrA/w98LNl9edxXcAezKs+Ixa2a+RkAvxXK38gH3815v+WkNa2AGY+wQv59vu2f9il9+zIKj6YrnlYIbh+jA==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.5
