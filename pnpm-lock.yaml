@@ -949,12 +949,12 @@ importers:
 
   packages/next-polyfill-nomodule:
     specifiers:
-      core-js: 3.6.5
+      core-js: 3.32.2
       microbundle: 0.15.1
       object-assign: 4.1.1
       whatwg-fetch: 3.0.0
     devDependencies:
-      core-js: 3.6.5
+      core-js: 3.32.2
       microbundle: 0.15.1
       object-assign: 4.1.1
       whatwg-fetch: 3.0.0
@@ -9164,6 +9164,11 @@ packages:
     resolution: {integrity: sha512-v6zfIQqL/pzTVAbZvYUozsxNfxcFb6Ks3ZfEbuneJl3FW9Jb8F6vLWB6f+qTmAu72msUdyb84V8d/yBFf7FNnw==}
     requiresBuild: true
     dev: false
+
+  /core-js/3.32.2:
+    resolution: {integrity: sha512-pxXSw1mYZPDGvTQqEc5vgIb83jGQKFGYWY76z4a7weZXUolw3G+OvpZqSRcfYOoOVUQJYEPsWeQK8pKEnUtWxQ==}
+    requiresBuild: true
+    dev: true
 
   /core-js/3.6.5:
     resolution: {integrity: sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==}
