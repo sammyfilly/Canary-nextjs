@@ -83,7 +83,7 @@ importers:
       buffer: 5.6.0
       chalk: 5.0.1
       cheerio: 0.22.0
-      cookie: 0.4.1
+      cookie: 0.5.0
       cors: 2.8.5
       coveralls: 3.0.3
       create-next-app: workspace:*
@@ -258,7 +258,7 @@ importers:
       buffer: 5.6.0
       chalk: 5.0.1
       cheerio: 0.22.0
-      cookie: 0.4.1
+      cookie: 0.5.0
       cors: 2.8.5
       coveralls: 3.0.3
       create-next-app: link:packages/create-next-app
@@ -531,7 +531,7 @@ importers:
       '@types/compression': 0.0.36
       '@types/content-disposition': 0.5.6
       '@types/content-type': 1.1.6
-      '@types/cookie': 0.3.3
+      '@types/cookie': 0.5.2
       '@types/cross-spawn': 6.0.3
       '@types/debug': 4.1.5
       '@types/fresh': 0.5.0
@@ -583,7 +583,7 @@ importers:
       constants-browserify: 1.0.0
       content-disposition: 0.5.4
       content-type: 1.0.5
-      cookie: 0.4.1
+      cookie: 0.5.0
       cross-spawn: 6.0.5
       crypto-browserify: 3.12.0
       css.escape: 1.5.1
@@ -739,7 +739,7 @@ importers:
       '@types/compression': 0.0.36
       '@types/content-disposition': 0.5.6
       '@types/content-type': 1.1.6
-      '@types/cookie': 0.3.3
+      '@types/cookie': 0.5.2
       '@types/cross-spawn': 6.0.3
       '@types/debug': 4.1.5
       '@types/fresh': 0.5.0
@@ -790,7 +790,7 @@ importers:
       constants-browserify: 1.0.0
       content-disposition: 0.5.4
       content-type: 1.0.5
-      cookie: 0.4.1
+      cookie: 0.5.0
       cross-spawn: 6.0.5
       crypto-browserify: 3.12.0
       css.escape: 1.5.1
@@ -5966,12 +5966,12 @@ packages:
     resolution: {integrity: sha512-WFHg/KFLCdUQl3m27WSQu0NEaLzoHGmgZHlsSYr0Y0iIvItMcBq7opZc6AGXPXqf+btIM6vTBJyLvuDAihB+zQ==}
     dev: true
 
-  /@types/cookie/0.3.3:
-    resolution: {integrity: sha512-LKVP3cgXBT9RYj+t+9FDKwS5tdI+rPBXaNSkma7hvqy35lc7mAokC2zsqWJH0LaqIt3B962nuYI77hsJoT1gow==}
-    dev: true
-
   /@types/cookie/0.4.1:
     resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
+    dev: true
+
+  /@types/cookie/0.5.2:
+    resolution: {integrity: sha512-DBpRoJGKJZn7RY92dPrgoMew8xCWc2P71beqsjyhEI/Ds9mOyVmBwtekyfhpwFIVt1WrxTonFifiOZ62V8CnNA==}
     dev: true
 
   /@types/cors/2.8.14:
@@ -9155,6 +9155,11 @@ packages:
 
   /cookie/0.4.1:
     resolution: {integrity: sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==}
+    engines: {node: '>= 0.6'}
+    dev: true
+
+  /cookie/0.5.0:
+    resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
     dev: true
 
