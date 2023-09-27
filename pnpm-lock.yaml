@@ -102,7 +102,7 @@ importers:
       eslint-plugin-react: 7.23.2
       eslint-plugin-react-hooks: 4.5.0
       event-stream: 4.0.1
-      execa: 2.0.3
+      execa: 2.1.0
       expect-type: 0.14.2
       express: 4.17.0
       faker: 5.5.3
@@ -277,7 +277,7 @@ importers:
       eslint-plugin-react: 7.23.2_eslint@7.32.0
       eslint-plugin-react-hooks: 4.5.0_eslint@7.32.0
       event-stream: 4.0.1
-      execa: 2.0.3
+      execa: 2.1.0
       expect-type: 0.14.2
       express: 4.17.0
       faker: 5.5.3
@@ -11317,7 +11317,7 @@ packages:
     dev: true
 
   /execa/0.4.0:
-    resolution: {integrity: sha1-TrZGejaglfq7KXD/nV4/t7zm68M=}
+    resolution: {integrity: sha512-QPexBaNjeOjyiZ47q0FCukTO1kX3F+HMM0EWpnxXddcr3MZtElILMkz9Y38nmSZtp03+ZiSRMffrKWBPOIoSIg==}
     engines: {node: '>=0.12'}
     dependencies:
       cross-spawn-async: 2.2.5
@@ -11341,18 +11341,18 @@ packages:
       strip-eof: 1.0.0
     dev: true
 
-  /execa/2.0.3:
-    resolution: {integrity: sha512-iM124nlyGSrXmuyZF1EMe83ESY2chIYVyDRZKgmcDynid2Q2v/+GuE7gNMl6Sy9Niwf4MC0DDxagOxeMPjuLsw==}
+  /execa/2.1.0:
+    resolution: {integrity: sha512-Y/URAVapfbYy2Xp/gb6A0E7iR8xeqOCXsuuaoMn7A5PzrXUK84E1gyiEfq0wQd/GHA6GsoHWwhNq8anb0mleIw==}
     engines: {node: ^8.12.0 || >=9.7.0}
     dependencies:
-      cross-spawn: 6.0.5
+      cross-spawn: 7.0.3
       get-stream: 5.1.0
       is-stream: 2.0.0
       merge-stream: 2.0.0
       npm-run-path: 3.1.0
       onetime: 5.1.2
       p-finally: 2.0.1
-      signal-exit: 3.0.3
+      signal-exit: 3.0.7
       strip-final-newline: 2.0.0
     dev: true
 
@@ -13971,7 +13971,7 @@ packages:
     dev: true
 
   /is-stream/1.1.0:
-    resolution: {integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=}
+    resolution: {integrity: sha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN+rqdQ==}
     engines: {node: '>=0.10.0'}
 
   /is-stream/2.0.0:
