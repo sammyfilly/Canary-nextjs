@@ -591,7 +591,7 @@ importers:
       data-uri-to-buffer: 3.0.1
       debug: 4.3.4
       devalue: 2.0.1
-      domain-browser: 4.19.0
+      domain-browser: 4.22.0
       edge-runtime: 2.0.0
       events: 3.3.0
       fibers: '>= 3.1.0'
@@ -798,7 +798,7 @@ importers:
       data-uri-to-buffer: 3.0.1
       debug: 4.3.4
       devalue: 2.0.1
-      domain-browser: 4.19.0
+      domain-browser: 4.22.0
       edge-runtime: 2.0.0
       events: 3.3.0
       find-cache-dir: 3.3.2
@@ -10206,8 +10206,8 @@ packages:
     resolution: {integrity: sha512-g6RpyWXzl0RR6OTElHKBl7nwnK87GUyZMYC7JWsB/IA73vpqK2K6LT39x4VepLxlSsWBFrPVLnsSR5Jyty0+2Q==}
     dev: true
 
-  /domain-browser/4.19.0:
-    resolution: {integrity: sha512-fRA+BaAWOR/yr/t7T9E9GJztHPeFjj8U35ajyAjCDtAAnTn1Rc1f6W6VGPJrO1tkQv9zWu+JRof7z6oQtiYVFQ==}
+  /domain-browser/4.22.0:
+    resolution: {integrity: sha512-IGBwjF7tNk3cwypFNH/7bfzBcgSCbaMOD3GsaY1AU/JRrnHnYgEM0+9kQt52iZxjNsjBtJYtao146V+f8jFZNw==}
     engines: {node: '>=10'}
     dev: true
 
