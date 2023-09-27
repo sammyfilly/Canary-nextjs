@@ -98,7 +98,7 @@ importers:
       eslint-plugin-eslint-plugin: 4.4.1
       eslint-plugin-import: 2.22.1
       eslint-plugin-jest: 24.3.5
-      eslint-plugin-jsdoc: 39.6.4
+      eslint-plugin-jsdoc: 39.9.1
       eslint-plugin-react: 7.23.2
       eslint-plugin-react-hooks: 4.5.0
       event-stream: 4.0.1
@@ -273,7 +273,7 @@ importers:
       eslint-plugin-eslint-plugin: 4.4.1_eslint@7.32.0
       eslint-plugin-import: 2.22.1_isduev2yc6qtgkg6ke3dmsvyxi
       eslint-plugin-jest: 24.3.5_tvypw2duwosgrbwww7favhmsqu
-      eslint-plugin-jsdoc: 39.6.4_eslint@7.32.0
+      eslint-plugin-jsdoc: 39.9.1_eslint@7.32.0
       eslint-plugin-react: 7.23.2_eslint@7.32.0
       eslint-plugin-react-hooks: 4.5.0_eslint@7.32.0
       event-stream: 4.0.1
@@ -10819,8 +10819,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-jsdoc/39.6.4_eslint@7.32.0:
-    resolution: {integrity: sha512-fskvdLCfwmPjHb6e+xNGDtGgbF8X7cDwMtVLAP2WwSf9Htrx68OAx31BESBM1FAwsN2HTQyYQq7m4aW4Q4Nlag==}
+  /eslint-plugin-jsdoc/39.9.1_eslint@7.32.0:
+    resolution: {integrity: sha512-Rq2QY6BZP2meNIs48aZ3GlIlJgBqFCmR55+UBvaDkA3ZNQ0SvQXOs2QKkubakEijV8UbIVbVZKsOVN8G3MuqZw==}
     engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -10831,7 +10831,7 @@ packages:
       escape-string-regexp: 4.0.0
       eslint: 7.32.0
       esquery: 1.4.0
-      semver: 7.3.8
+      semver: 7.5.4
       spdx-expression-parse: 3.0.1
     transitivePeerDependencies:
       - supports-color
