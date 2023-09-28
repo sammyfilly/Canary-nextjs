@@ -111,7 +111,7 @@ importers:
       firebase: 7.24.0
       flat: 5.0.2
       form-data: 4.0.0
-      fs-extra: 9.0.0
+      fs-extra: 9.1.0
       get-port: 5.1.1
       glob: 7.1.6
       gzip-size: 5.1.1
@@ -286,7 +286,7 @@ importers:
       firebase: 7.24.0
       flat: 5.0.2
       form-data: 4.0.0
-      fs-extra: 9.0.0
+      fs-extra: 9.1.0
       get-port: 5.1.1
       glob: 7.1.6
       gzip-size: 5.1.1
@@ -12090,16 +12090,6 @@ packages:
       universalify: 0.1.2
     dev: true
 
-  /fs-extra/9.0.0:
-    resolution: {integrity: sha512-pmEYSk3vYsG/bF651KPUXZ+hvjpgWYw/Gc7W9NFUe3ZVLczKKWIij3IKpOrQcdw4TILtibFslZ0UmR8Vvzig4g==}
-    engines: {node: '>=10'}
-    dependencies:
-      at-least-node: 1.0.0
-      graceful-fs: 4.2.9
-      jsonfile: 6.0.1
-      universalify: 1.0.0
-    dev: true
-
   /fs-extra/9.1.0:
     resolution: {integrity: sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==}
     engines: {node: '>=10'}
@@ -12708,6 +12698,7 @@ packages:
 
   /graceful-fs/4.2.9:
     resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==}
+    dev: false
 
   /grapheme-splitter/1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
