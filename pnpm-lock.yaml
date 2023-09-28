@@ -124,7 +124,7 @@ importers:
       jest: 27.0.6
       jest-extended: 1.2.1
       json5: 2.2.3
-      ky: 0.19.1
+      ky: 0.33.3
       ky-universal: 0.6.0
       lerna: 4.0.0
       lint-staged: 10.1.7
@@ -299,8 +299,8 @@ importers:
       jest: 27.0.6_ts-node@10.9.1
       jest-extended: 1.2.1
       json5: 2.2.3
-      ky: 0.19.1
-      ky-universal: 0.6.0_ky@0.19.1
+      ky: 0.33.3
+      ky-universal: 0.6.0_ky@0.33.3
       lerna: 4.0.0
       lint-staged: 10.1.7
       lodash: 4.17.21
@@ -15301,7 +15301,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /ky-universal/0.6.0_ky@0.19.1:
+  /ky-universal/0.6.0_ky@0.33.3:
     resolution: {integrity: sha512-GvKOzAO5Ec4LiI2jCYRib/7FJwirI3xUFcxUQi9SY3kPZflLY8N289UlsYekwg7gtiLPeU1abYnTFA9N6IO9ig==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -15312,15 +15312,15 @@ packages:
         optional: true
     dependencies:
       abort-controller: 3.0.0
-      ky: 0.19.1
+      ky: 0.33.3
       node-fetch: 2.6.7
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /ky/0.19.1:
-    resolution: {integrity: sha512-ZwciYrfaWpDI72U2HAruuGYGFW3PCfGNdWWSANGGssg9BGm4rRJ9s/sApiiRpj+8Y245/hlZW9c60zudLr6iwA==}
-    engines: {node: '>=10'}
+  /ky/0.33.3:
+    resolution: {integrity: sha512-CasD9OCEQSFIam2U8efFK81Yeg8vNMTBUqtMOHlrcWQHqUX3HeCl9Dr31u4toV7emlH8Mymk5+9p0lL6mKb/Xw==}
+    engines: {node: '>=14.16'}
     dev: true
 
   /language-subtag-registry/0.3.21:
