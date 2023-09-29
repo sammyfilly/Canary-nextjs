@@ -43,7 +43,7 @@ importers:
       '@types/http-proxy': 1.17.12
       '@types/jest': 24.0.13
       '@types/node': 14.18.63
-      '@types/node-fetch': 2.6.1
+      '@types/node-fetch': 2.6.6
       '@types/react': 16.9.17
       '@types/react-dom': 16.9.4
       '@types/relay-runtime': 13.0.0
@@ -134,7 +134,7 @@ importers:
       moment: ^2.24.0
       nanoid: 3.1.31
       next: workspace:*
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       npm-run-all: 4.1.5
       nprogress: 0.2.0
       pixrem: 5.0.0
@@ -218,7 +218,7 @@ importers:
       '@types/http-proxy': 1.17.12
       '@types/jest': 24.0.13
       '@types/node': 14.18.63
-      '@types/node-fetch': 2.6.1
+      '@types/node-fetch': 2.6.6
       '@types/react': 16.9.17
       '@types/react-dom': 16.9.4
       '@types/relay-runtime': 13.0.0
@@ -228,7 +228,7 @@ importers:
       '@types/trusted-types': 2.0.4
       '@typescript-eslint/eslint-plugin': 4.29.1_7yykz2fqwaeygy5yjipa4zuxgy
       '@typescript-eslint/parser': 4.29.1_td6yqss6ra3qoebludh4ctrhym
-      '@vercel/fetch': 6.2.0_fii5qhbaymjqmfm7e2spxc5z4m
+      '@vercel/fetch': 6.2.0_i6mc56qauwqy2ldprsjpbfad5y
       '@vercel/og': 0.5.17
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/floating-point-hex-parser': 1.11.6
@@ -309,7 +309,7 @@ importers:
       moment: 2.24.0
       nanoid: 3.1.31
       next: link:packages/next
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       npm-run-all: 4.1.5
       nprogress: 0.2.0
       pixrem: 5.0.0
@@ -541,7 +541,7 @@ importers:
       '@types/lodash.curry': 4.1.7
       '@types/lru-cache': 5.1.1
       '@types/micromatch': 4.0.3
-      '@types/node-fetch': 2.6.1
+      '@types/node-fetch': 2.6.6
       '@types/path-to-regexp': 1.7.0
       '@types/platform': 1.3.4
       '@types/react': 16.9.17
@@ -620,7 +620,7 @@ importers:
       nanoid: 3.1.32
       native-url: 0.3.4
       neo-async: 2.6.2
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       node-html-parser: 5.3.3
       node-sass: ^6.0.0 || ^7.0.0
       ora: 4.0.4
@@ -749,7 +749,7 @@ importers:
       '@types/lodash.curry': 4.1.7
       '@types/lru-cache': 5.1.1
       '@types/micromatch': 4.0.3
-      '@types/node-fetch': 2.6.1
+      '@types/node-fetch': 2.6.6
       '@types/path-to-regexp': 1.7.0
       '@types/platform': 1.3.4
       '@types/react': 16.9.17
@@ -826,7 +826,7 @@ importers:
       nanoid: 3.1.32
       native-url: 0.3.4
       neo-async: 2.6.2
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       node-html-parser: 5.3.3
       ora: 4.0.4
       os-browserify: 0.3.0
@@ -4452,7 +4452,7 @@ packages:
     resolution: {integrity: sha512-OMUpGSkeDWFf7BxGHlkbb35T7YHqVFCwBPSIR6wRsszY8PAzCYahtH3IaJzEJyUg6vmZsNl0FSr3pdA2skhxqA==}
     engines: {node: '>= 10.18.0'}
     dependencies:
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       npmlog: 4.1.2
       whatwg-url: 8.7.0
     transitivePeerDependencies:
@@ -4881,7 +4881,7 @@ packages:
       detect-libc: 1.0.3
       https-proxy-agent: 5.0.0
       make-dir: 3.1.0
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       nopt: 5.0.0
       npmlog: 4.1.2
       rimraf: 3.0.2
@@ -5261,7 +5261,7 @@ packages:
       '@octokit/types': 6.8.3
       deprecation: 2.3.1
       is-plain-object: 5.0.0
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       once: 1.4.0
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -5278,7 +5278,7 @@ packages:
       http-proxy-agent: 2.1.0
       https-proxy-agent: 2.2.4
       lodash: 4.17.21
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       url-template: 2.0.8
     transitivePeerDependencies:
       - encoding
@@ -6265,11 +6265,11 @@ packages:
       '@types/node': 18.11.18
     dev: true
 
-  /@types/node-fetch/2.6.1:
-    resolution: {integrity: sha512-oMqjURCaxoSIsHSr1E47QHzbmzNR5rK8McHuNb11BOM9cHcIK3Avy0s/b2JlXHoQGTYS3NsvWzV1M0iK7l0wbA==}
+  /@types/node-fetch/2.6.6:
+    resolution: {integrity: sha512-95X8guJYhfqiuVVhRFxVQcf4hW/2bCuoPwDasMf/531STFoNoWTT7YDnWdXHEZKqAGUigmpG31r2FE70LwnzJw==}
     dependencies:
       '@types/node': 18.11.18
-      form-data: 3.0.1
+      form-data: 4.0.0
     dev: true
 
   /@types/node/10.12.18:
@@ -6669,41 +6669,41 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: false
 
-  /@vercel/fetch-cached-dns/2.0.2_node-fetch@2.6.7:
+  /@vercel/fetch-cached-dns/2.0.2_node-fetch@2.7.0:
     resolution: {integrity: sha512-gDqKEV8CeY2YmCdZpP1rn3tFK1L07Vw2+HYkCK8zpRHOVGr/sP8yhBsW+C/yqGVj0i9z/rIvqIHe5emvRvxwgw==}
     peerDependencies:
       node-fetch: '*'
     dependencies:
       '@types/node-fetch': 2.3.2
       '@zeit/dns-cached-resolve': 2.1.2
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
     dev: true
 
-  /@vercel/fetch-retry/5.0.3_node-fetch@2.6.7:
+  /@vercel/fetch-retry/5.0.3_node-fetch@2.7.0:
     resolution: {integrity: sha512-DIIoBY92r+sQ6iHSf5WjKiYvkdsDIMPWKYATlE0KcUAj2RV6SZK9UWpUzBRKsofXqedOqpVjrI0IE6AWL7JRtg==}
     peerDependencies:
       node-fetch: '*'
     dependencies:
       async-retry: 1.3.3
       debug: 3.2.7
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vercel/fetch/6.2.0_fii5qhbaymjqmfm7e2spxc5z4m:
+  /@vercel/fetch/6.2.0_i6mc56qauwqy2ldprsjpbfad5y:
     resolution: {integrity: sha512-MU+Mzh06NIAXxwdnyHmBFg+/lTKBbzDkCSNhAwWTFJ4rHuBc4pHc8E6XP+qnwqaWugjOBQgFfQCGDLnV820c9A==}
     peerDependencies:
       '@types/node-fetch': ^2.6.1
       node-fetch: ^2.6.7
     dependencies:
       '@types/async-retry': 1.4.6
-      '@types/node-fetch': 2.6.1
-      '@vercel/fetch-cached-dns': 2.0.2_node-fetch@2.6.7
-      '@vercel/fetch-retry': 5.0.3_node-fetch@2.6.7
+      '@types/node-fetch': 2.6.6
+      '@vercel/fetch-cached-dns': 2.0.2_node-fetch@2.7.0
+      '@vercel/fetch-retry': 5.0.3_node-fetch@2.7.0
       agentkeepalive: 4.5.0
       debug: 4.3.4
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -14128,7 +14128,7 @@ packages:
   /isomorphic-unfetch/3.1.0:
     resolution: {integrity: sha512-geDJjpoZ8N0kWexiwkX8F9NkTsXhetLPVbZFQ+JTW239QNOwvB0gniuR1Wc6f0AMTn7/mFGyXvHTifrCp/GH8Q==}
     dependencies:
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       unfetch: 4.2.0
     transitivePeerDependencies:
       - encoding
@@ -16791,6 +16791,18 @@ packages:
 
   /node-fetch/2.6.7:
     resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+    dependencies:
+      whatwg-url: 5.0.0
+    dev: true
+
+  /node-fetch/2.7.0:
+    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -22186,11 +22198,11 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
   /tr46/1.0.1:
-    resolution: {integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=}
+    resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
     dependencies:
       punycode: 2.1.1
     dev: false
@@ -23137,7 +23149,7 @@ packages:
     dev: true
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: true
 
   /webidl-conversions/4.0.2:
@@ -23358,7 +23370,7 @@ packages:
     dev: true
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
