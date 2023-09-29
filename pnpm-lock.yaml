@@ -616,7 +616,7 @@ importers:
       lodash.curry: 4.1.1
       lru-cache: 5.1.1
       micromatch: 4.0.5
-      mini-css-extract-plugin: 2.4.3
+      mini-css-extract-plugin: 2.7.6
       nanoid: 3.1.32
       native-url: 0.3.4
       neo-async: 2.6.2
@@ -822,7 +822,7 @@ importers:
       lodash.curry: 4.1.1
       lru-cache: 5.1.1
       micromatch: 4.0.5
-      mini-css-extract-plugin: 2.4.3_webpack@5.76.0
+      mini-css-extract-plugin: 2.7.6_webpack@5.76.0
       nanoid: 3.1.32
       native-url: 0.3.4
       neo-async: 2.6.2
@@ -7130,12 +7130,32 @@ packages:
       ajv: 8.11.0
     dev: true
 
+  /ajv-formats/2.1.1_ajv@8.12.0:
+    resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependencies:
+      ajv: ^8.0.0
+    peerDependenciesMeta:
+      ajv:
+        optional: true
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
   /ajv-keywords/3.5.2_ajv@6.12.6:
     resolution: {integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==}
     peerDependencies:
       ajv: ^6.9.1
     dependencies:
       ajv: 6.12.6
+
+  /ajv-keywords/5.1.0_ajv@8.12.0:
+    resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
+    peerDependencies:
+      ajv: ^8.8.2
+    dependencies:
+      ajv: 8.12.0
+      fast-deep-equal: 3.1.3
+    dev: true
 
   /ajv/6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
@@ -16389,13 +16409,13 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  /mini-css-extract-plugin/2.4.3_webpack@5.76.0:
-    resolution: {integrity: sha512-zekavl9mZuGyk7COjsfFY/f655AX61EKE0AthXPrmDk+oZyjZ9WzO4WPjXnnO9xl8obK2kmM6rAQrBEmk+WK1g==}
+  /mini-css-extract-plugin/2.7.6_webpack@5.76.0:
+    resolution: {integrity: sha512-Qk7HcgaPkGG6eD77mLvZS1nmxlao3j+9PkrT9Uc7HAE1id3F41+DdBRYRYkbyfNRGzm8/YWtzhw7nVPmwhqTQw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      schema-utils: 3.1.1
+      schema-utils: 4.2.0
       webpack: 5.76.0
     dev: true
 
@@ -20581,6 +20601,16 @@ packages:
       '@types/json-schema': 7.0.11
       ajv: 6.12.6
       ajv-keywords: 3.5.2_ajv@6.12.6
+
+  /schema-utils/4.2.0:
+    resolution: {integrity: sha512-L0jRsrPpjdckP3oPug3/VxNKt2trR8TcabrM6FOAAlvC/9Phcmm+cuAgTlxBqdBR1WJx7Naj9WHw+aOmheSVbw==}
+    engines: {node: '>= 12.13.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 8.12.0
+      ajv-formats: 2.1.1_ajv@8.12.0
+      ajv-keywords: 5.1.0_ajv@8.12.0
+    dev: true
 
   /scss-tokenizer/0.4.3:
     resolution: {integrity: sha512-raKLgf1LI5QMQnG+RxHz6oK0sL3x3I4FN2UDLqgLOGO8hodECNnNh5BXn7fAyBxrA8zVzdQizQ6XjNJQ+uBwMw==}
