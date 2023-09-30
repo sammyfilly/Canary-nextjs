@@ -623,7 +623,7 @@ importers:
       node-fetch: 2.7.0
       node-html-parser: 5.4.2
       node-sass: ^6.0.0 || ^7.0.0
-      ora: 4.0.4
+      ora: 4.1.1
       os-browserify: 0.3.0
       p-limit: 3.1.0
       path-browserify: 1.0.1
@@ -828,7 +828,7 @@ importers:
       neo-async: 2.6.2
       node-fetch: 2.7.0
       node-html-parser: 5.4.2
-      ora: 4.0.4
+      ora: 4.1.1
       os-browserify: 0.3.0
       p-limit: 3.1.0
       path-browserify: 1.0.1
@@ -17439,8 +17439,8 @@ packages:
       wcwidth: 1.0.1
     dev: true
 
-  /ora/4.0.4:
-    resolution: {integrity: sha512-77iGeVU1cIdRhgFzCK8aw1fbtT1B/iZAvWjS+l/o1x0RShMgxHUZaD2yDpWsNCPwXg9z1ZA78Kbdvr8kBmG/Ww==}
+  /ora/4.1.1:
+    resolution: {integrity: sha512-sjYP8QyVWBpBZWD6Vr1M/KwknSw6kJOz41tvGMlwWeClHBtYKTbHMki1PsLZnxKpXMPbTKv9b3pjQu3REib96A==}
     engines: {node: '>=8'}
     dependencies:
       chalk: 3.0.0
