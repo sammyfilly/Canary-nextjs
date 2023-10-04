@@ -41,7 +41,7 @@
     "@vercel/ncc": "0.38.0",
     "async-retry": "1.3.3",
     "chalk": "2.4.2",
-    "ci-info": "watson/ci-info#8e2b9d24a06753311503ea3838080034c5a63611",
+    "ci-info": "watson/ci-info#54e74d014ebed90aa5684c9812d8e14f49c194b0",
     "commander": "2.20.3",
     "conf": "10.2.0",
     "cpy": "7.3.0",
