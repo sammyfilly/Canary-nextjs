@@ -124,7 +124,7 @@
     "@babel/traverse": "7.23.0",
     "@babel/types": "7.23.0",
     "@edge-runtime/primitives": "4.0.2",
-    "@hapi/accept": "6.0.2",
+    "@hapi/accept": "6.0.3",
     "@napi-rs/cli": "2.16.3",
     "@napi-rs/triples": "1.1.0",
     "@next/polyfill-module": "13.5.4",
