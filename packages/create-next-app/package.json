@@ -29,7 +29,7 @@
     "test-pack": "cd ../../ && pnpm test-pack create-next-app"
   },
   "devDependencies": {
-    "@types/async-retry": "1.4.6",
+    "@types/async-retry": "1.4.7",
     "@types/ci-info": "2.0.0",
     "@types/cross-spawn": "6.0.3",
     "@types/glob": "8.1.0",
