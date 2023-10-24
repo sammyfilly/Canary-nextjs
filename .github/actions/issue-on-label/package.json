@@ -10,7 +10,7 @@
     "build": "npm run types && npm run pack"
   },
   "devDependencies": {
-    "@types/node": "^18.11.0",
+    "@types/node": "^20.0.0",
     "@vercel/ncc": "0.38.1",
     "typescript": "^5.0.0"
   },
