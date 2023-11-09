@@ -147,7 +147,7 @@
     "@types/content-disposition": "0.5.8",
     "@types/content-type": "1.1.8",
     "@types/cookie": "0.5.3",
-    "@types/cross-spawn": "6.0.4",
+    "@types/cross-spawn": "6.0.5",
     "@types/debug": "4.1.10",
     "@types/fresh": "0.5.1",
     "@types/glob": "8.1.0",
