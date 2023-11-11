@@ -44,7 +44,7 @@
     "ci-info": "watson/ci-info#3e1488e98680f1f776785fe8708a157b7f00e568",
     "commander": "11.1.0",
     "conf": "12.0.0",
-    "cpy": "10.1.0",
+    "cpy": "11.0.0",
     "cross-spawn": "7.0.3",
     "glob": "10.3.10",
     "got": "13.0.0",
