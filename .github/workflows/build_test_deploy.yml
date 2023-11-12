@@ -1282,7 +1282,7 @@ jobs:
 
       - name: Build
         id: build
-        uses: vmactions/freebsd-vm@v0
+        uses: vmactions/freebsd-vm@v1
         if: ${{ steps.build-exists.outputs.BUILD_EXISTS == 'no' }}
         env:
           DEBUG: napi:*
