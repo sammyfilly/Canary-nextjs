@@ -89,7 +89,7 @@ jobs:
             strip packages/next-swc/native/next-swc.*.node
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: next-swc-dev-binary
           path: packages/next-swc/native/next-swc.linux-x64-gnu.node
