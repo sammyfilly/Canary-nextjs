@@ -51,7 +51,7 @@ next-binding = { git = "https://github.com/vercel/turbo.git", tag = "turbopack-2
 # Note to opt in rustls default-features should be disabled
 # (--no-default-features --features sentry_rustls)
 _sentry_native_tls = { package = "sentry", version = "0.32.1", optional = true }
-_sentry_rustls = { package = "sentry", version = "0.32.0", default-features = false, features = [
+_sentry_rustls = { package = "sentry", version = "0.32.1", default-features = false, features = [
   "backtrace",
   "contexts",
   "panic",
