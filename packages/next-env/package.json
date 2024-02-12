@@ -33,7 +33,7 @@
   "devDependencies": {
     "@vercel/ncc": "0.38.1",
     "dotenv": "16.4.2",
-    "dotenv-expand": "11.0.2",
+    "dotenv-expand": "11.0.3",
     "rimraf": "5.0.5"
   }
 }
