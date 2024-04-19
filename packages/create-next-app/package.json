@@ -49,7 +49,7 @@
     "glob": "10.3.12",
     "got": "14.2.1",
     "prompts": "2.4.2",
-    "tar": "6.2.1",
+    "tar": "7.0.1",
     "update-check": "1.5.4",
     "validate-npm-package-name": "5.0.0"
   },
