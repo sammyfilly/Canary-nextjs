@@ -21,7 +21,7 @@
     "scheduler": "0.24.0-next-fecc288b7-20221025"
   },
   "peerDependencies": {
-    "react": "18.3.0-next-fecc288b7-20221025"
+    "react": "18.3.0"
   },
   "files": [
     "LICENSE",
