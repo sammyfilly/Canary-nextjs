@@ -10,7 +10,7 @@ plugin = ["next-binding/__swc_core_binding_napi_plugin"]
 [dependencies]
 chrono = "0.4.38"
 easy-error = "1.0.0"
-either = "1"
+either = "1.11.0"
 fxhash = "0.2.1"
 once_cell = "1.19.0"
 pathdiff = "0.2.1"
