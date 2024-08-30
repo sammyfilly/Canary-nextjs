@@ -19,7 +19,7 @@
   },
   "peerDependencies": {
     "react-refresh": "0.14.2",
-    "webpack": "^4 || ^5"
+    "webpack": "^5.94.0 ^5.94.0"
   },
   "peerDependenciesMeta": {
     "webpack": {
@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "react-refresh": "0.14.2",
-    "webpack": "^4 || ^5"
+    "webpack": "^5.94.0 ^5.94.0"
   }
 }
