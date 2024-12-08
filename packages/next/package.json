@@ -123,7 +123,7 @@
     "@babel/runtime": "7.26.0",
     "@babel/traverse": "7.26.4",
     "@babel/types": "7.26.3",
-    "@edge-runtime/primitives": "5.1.1",
+    "@edge-runtime/primitives": "6.0.0",
     "@hapi/accept": "6.0.3",
     "@napi-rs/cli": "2.18.4",
     "@napi-rs/triples": "1.2.0",
