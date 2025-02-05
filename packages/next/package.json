@@ -260,7 +260,7 @@
     "sass-loader": "16.0.4",
     "schema-utils2": "npm:schema-utils@4.3.0",
     "schema-utils3": "npm:schema-utils@4.3.0",
-    "semver": "7.7.0",
+    "semver": "7.7.1",
     "send": "1.1.0",
     "server-only": "0.0.1",
     "setimmediate": "1.0.5",
